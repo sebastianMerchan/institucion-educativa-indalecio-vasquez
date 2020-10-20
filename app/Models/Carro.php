@@ -7,6 +7,7 @@ class Carro // UpperCamelCase, { }
     public string $color = "Rojo"; // Tipos (bool, int, float, null, array, object)
     public bool $cajaAutomatica = true; // LowerCamelCase
 
+
     //Metodo
     public function saludar(?string $nombre = "Usuario") : string{
         return "Hola ".$nombre." como estas?";
